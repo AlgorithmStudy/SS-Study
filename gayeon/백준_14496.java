@@ -5,20 +5,12 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-class Change implements Comparable<Change> {
+class Change{
 	int idx, cnt;
 
 	Change(int idx, int cnt) {
 		this.idx = idx;
 		this.cnt = cnt;
-	}
-
-	@Override
-	public int compareTo(Change c) {
-		if (this.cnt <= c.cnt)
-			return -1;
-		else
-			return 1;
 	}
 }
 
