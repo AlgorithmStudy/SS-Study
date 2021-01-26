@@ -39,5 +39,4 @@ public class Main {
 			System.out.println(s+" "+String.format("%.4f", num));
 		}
 	}
-
 }
